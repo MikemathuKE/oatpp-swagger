@@ -40,3 +40,10 @@ build/
 
 # MAC
 **/.DS_Store
+
+# MSVC
+*.tlog
+*.log
+*.idb
+*.pdb
+*.vcxproj

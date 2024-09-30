@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="oas3">
+      <UniqueIdentifier>{3B999B7C-27D0-9C0D-D0BC-8210BCD2180F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\oatpp-swagger\AsyncController.hpp" />
+    <ClInclude Include="src\oatpp-swagger\Controller.hpp" />
+    <ClInclude Include="src\oatpp-swagger\ControllerPaths.hpp" />
+    <ClInclude Include="src\oatpp-swagger\Generator.hpp" />
+    <ClInclude Include="src\oatpp-swagger\Model.hpp" />
+    <ClInclude Include="src\oatpp-swagger\Resources.hpp" />
+    <ClInclude Include="src\oatpp-swagger\Types.hpp" />
+    <ClInclude Include="src\oatpp-swagger\oas3\Model.hpp">
+      <Filter>oas3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\oatpp-swagger\Generator.cpp" />
+    <ClCompile Include="src\oatpp-swagger\Resources.cpp" />
+    <ClCompile Include="src\oatpp-swagger\Types.cpp" />
+  </ItemGroup>
+</Project>
